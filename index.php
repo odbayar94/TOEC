@@ -9,7 +9,7 @@ and open the template in the editor.
 <?php
 session_start();
 include_once("class.user.php");
-$errorMessage ="";
+$errorMessage ="null";
 $login = new USER();
 
 if($login->is_loggedin()!="")
@@ -29,8 +29,12 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 	else
 	{
+
         //$errorMessage = "Your Login Name or Password is invalid";
                        $error = "<b><font color='red'>Your Login Name or Password is invalid</font></b>";
+//        $errorMessage = "Username or Password is invalid";
+                       $error = "<b><font color='red'>Wrong Details !</font></b>";
+
 	}
         }
         
@@ -101,8 +105,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                    
                    <div class="form-group">  
                        <span class="d-block text-muted"><?php 
-                       
-                       
                        
                        ?></span>
         <input class="login-input" type="text"  name="txt_uname_email" placeholder="Email address or account name" required />
