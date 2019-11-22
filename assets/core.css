@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 19, 2019, 10:15:21 AM
+    Author     : Odbayar
+*/
+body{
+	
+    font-family: 'Roboto Condensed', sans-serif;
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+* {
+    box-sizing: border-box;
+}
+
+div {
+    display: block;  
+    position: relative;
+}
+
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+
+.form{
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.img-slide {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.rightside {
+    height: 100vh;
+    margin: 0;
+    widht: 65%;
+    justify-content: center;
+    padding: 50px;
+    width: 28rem;
+
+    
+}
+.leftside{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    overflow: hidden;
+    position: relative;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.loginmenu{
+        margin-left: 65%;
+        background: #7221f3;
+        position: relative;
+        box-sizing: border-box;
+}
+.btn-login{
+    font-size: 12px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    background-color: #3072be;
+    border-style: none;
+}
+
+.page{
+    display: flex;
+    flex-grow: 1;
+}
+
+.form-group{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 4px;
+    
+}
+
+
+.form-control {
+    height: 40px;
+    line-height: 40px;
+    border: 0;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    border-radius: 50px;
+}
+
+.logos{
+   max-height: 150px;
+   margin-bottom: 50px;
+}
+
+.login-input{
+    position: relative;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 0;
+    font-size: 16px;
+    border: 1px solid #CCC;
+    border-radius: 50px;
+}
+
+.login-copy-right{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.login-copy-right span {
+    font-size: 14px;
+    color: #AAA;
+}
+
+.login-copy-right a {
+    font-size: 14px;
+    color: #2196f3;
+    text-decoration: none;
+}
+
+.login-title{
+    position: absolute;
+    flex-direction: column;
+    left: 150px;
+    text-shadow: 2px 2px 2px #191818;
+}
+
+.login-title h2{
+        font-size: 44px;
+    font-weight: bold;
+    color: #FFF;
+    margin-block-start: 5em;
+    margin-block-end: 0.2em;
+    
+}
+
+.login-title p{
+        font-size: 22px;
+    font-weight: normal;
+    color: #FFF;
+    margin-block-start: 0.2em;
+}
