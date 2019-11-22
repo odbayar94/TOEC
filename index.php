@@ -29,8 +29,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	}
 	else
 	{
-        $errorMessage = "Your Login Name or Password is invalid";
-        //               $error = "Your Login Name or Password is invalid";
+        //$errorMessage = "Your Login Name or Password is invalid";
+                       $error = "<b><font color='red'>Your Login Name or Password is invalid</font></b>";
 	}
         }
         
@@ -102,7 +102,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
                    <div class="form-group">  
                        <span class="d-block text-muted"><?php 
                        
-                       echo Message::display();
+                       
                        
                        ?></span>
         <input class="login-input" type="text"  name="txt_uname_email" placeholder="Email address or account name" required />
