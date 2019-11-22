@@ -30,10 +30,8 @@ if($_SERVER["REQUEST_METHOD"] == "POST")
 	else
 	{
 
-        //$errorMessage = "Your Login Name or Password is invalid";
-                       $error = "<b><font color='red'>Your Login Name or Password is invalid</font></b>";
 //        $errorMessage = "Username or Password is invalid";
-                       $error = "<b><font color='red'>Wrong Details !</font></b>";
+                       $error = "<b><font color='red'>User name or password is invalid!</font></b>";
 
 	}
         }
